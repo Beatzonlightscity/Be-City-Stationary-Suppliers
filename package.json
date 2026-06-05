@@ -1,0 +1,32 @@
+{
+  "name": "be-city-procurement-os",
+  "version": "1.0.0",
+  "description": "Autonomous AI Procurement System for School Supply Management",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "cron": "node scripts/cron-ai.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "next": "^14.0.0",
+    "@supabase/supabase-js": "^2.38.0",
+    "node-cron": "^3.0.2",
+    "recharts": "^2.10.0",
+    "axios": "^1.6.0",
+    "jspdf": "^2.5.1",
+    "pdfkit": "^0.13.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0"
+  }
+}
